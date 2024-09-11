@@ -13,7 +13,9 @@ class SqlInjectionChecker:
         'delete': '(delete).*(from)',
         'drop': '(drop).*(table)',
         'insert': '(insert).*(into)',
-        'alter': '(alter).*(table)'
+        'alter': '(alter).*(table)',
+        'update': '(update).*(set)',
+        'backup': '(backup).*(database)'
     }
 
     def __init__(self):
