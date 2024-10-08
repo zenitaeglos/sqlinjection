@@ -9,11 +9,11 @@ class SqlInjectionException(Exception):
         value (str): value with the data
         description (str): exception description
     """
-    def __init__(self, 
-    message: str, 
-    key: str = None,
-    value: str = None,
-    description: str = None):
+    def __init__(self,
+    message: str,
+    key: str = str(),
+    value: str = str(),
+    description: str = str()):
         super().__init__(message)
         self.message = message
         self.key = key
