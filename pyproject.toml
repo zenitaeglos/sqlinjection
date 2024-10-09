@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sqlinjection"
-version = "0.0.5"
+version = "0.0.6"
 authors = [{ name = "Alejandro Martinez", email = "aegloszenit@protonmail.ch" }]
 description = "Sql injection detector"
 readme = "README.md"
